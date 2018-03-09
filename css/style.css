@@ -1,0 +1,231 @@
+*{margin:0;
+padding:0;}
+body{
+    font-family:'Playfair Display', serif;
+}
+header{
+    overflow:hidden;
+}
+.wrapper{
+    width:80%;
+    margin:0 auto;
+}
+.logo{
+    width:25%;
+    float:left;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.logo h1{
+    font-family:'Inconsolata', monospace;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 30px;
+    color: #2A2A2A;
+}
+.nav{
+    width:70%;
+    float:right;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+.nav ul{
+    list-style: none;
+    float: right;
+}
+.nav ul li{
+    float:left;
+}
+.nav ul li a{
+    display:block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    text-decoration: none;
+    padding:10px 60px;
+    color:#7A7A7A;
+    transition: 1s;
+}
+.nav ul li:last-child a{
+    padding-right:0px;
+}
+.nav ul li a:hover{
+    color:black;
+    font-weight:400;
+    transform: scale(1.1)
+}
+#slider{
+    
+}
+.slider{
+    
+}
+.slider img{
+    width:100%;
+}
+#description{
+    overflow:hidden;
+}
+.intro{
+    padding:0 6%;
+    overflow:hidden;
+    padding-bottom:6%;
+    padding-top:4%;
+}
+#caption{
+    padding:4% 0;
+    font-family:'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    color:#D2CEC4;
+}
+.intro h1{
+    padding-bottom:2.7%;
+    font-size: 30px;
+    font-weight: 100;
+    padding-top:1%;
+    color:#626262;
+}
+.intro p{
+    font-size: 14px;
+    line-height: 25px;
+    color:#7B7B7B;
+    padding-bottom:0.7%;
+}
+#blog1{
+min-height:1280px;}
+.single_blog{
+    width:40%;
+    padding:5% 46px;
+    float:left;
+    margin:0 11px;
+    transition:0.8s;
+}
+.single_blog:hover{
+    transform: scale(1.08);
+    
+}
+.single_blog .single_image{}
+.single_blog .single_image img{width:100%;}
+.blog_data{}
+.blog_data h1{
+    padding-bottom:5%;
+    font-weight: 100;
+    font-size: 30px;
+    padding-top:1%;
+    color:#626262;
+}
+.blog_data p{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+    font-weight: 100;
+    text-align: justify;
+    color:#7B7B7B;
+}
+#newsletter{
+    overflow: hidden;
+    text-align: center;
+    min-height: 286px;
+    background-color:#F0F0F0;
+}
+#newsletter h1{
+    font-weight: 100;
+    font-size: 30px;
+    padding-top:80px;
+    padding-bottom:70px;
+    color:#2F2F2F;
+}
+
+.newsletter_form form
+{
+    position:relative;
+    width:406px;
+    margin:0 auto;
+}
+.newsletter_form input{
+    border:none;
+    width:400px;
+    height:35px;
+    border-bottom:2px solid black;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 100;
+}
+.newsletter_form button{
+    position:absolute;
+    right:0;
+    top:6px;
+    background-color: transparent;
+    border:none;
+}
+.newsletter_form button:hover{
+    transform: scale(1.2);
+}
+#blog2{
+    min-height:700px;
+        
+}
+#load_button{
+    text-align: center;
+    min-height:400px;
+    
+}
+#load_button button{
+    height:50px;
+    width:12%;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: transparent;
+    color:#7B7B7B;
+    border:1px solid #7B7B7B;
+    transition: 0.8s;
+}
+#load_button button:hover{
+    transform:scale(1.08);
+    color:black;
+    
+}
+footer
+{
+    height:70px;
+    background-color: #F0F0F0;
+}
+.footer_content .left_side{
+    float:left;
+    width:40%;
+    padding:1% 0;
+    
+}
+.footer_content .left_side ul{list-style: none;}
+.footer_content .left_side ul li{float: left;}
+.footer_content .left_side ul li a{text-decoration: none;
+    display:block;
+    padding:5px 20px;
+    font-size: 14px;
+     color: #2A2A2A;
+    transition: 0.8s;
+}
+.footer_content .left_side ul li a:hover{
+    transform: scale(1.08);
+    font-weight: 300;
+    color:black;
+}
+.footer_content .right_side{
+    float:right;
+    width:40%;
+    
+    padding:1% 0;
+}
+.footer_content .right_side ul{list-style: none;float:right;}
+.footer_content .right_side ul li{float: left;}
+.footer_content .right_side ul li a{text-decoration:none;
+    display:block;
+    padding:5px 20px;
+    font-size: 14px;
+     color: #2A2A2A;
+    transition: 0.8s;
+}
+.footer_content .right_side ul li a:hover{
+    transform: scale(1.2);
+    font-weight: 300;
+    color:black;
+}
